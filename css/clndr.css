@@ -1,172 +1,172 @@
 .noselect {
-    -webkit-user-select: none;
+    -webkit-user-select: none !important;
     /* Chrome/Safari */
-    -moz-user-select: none;
+    -moz-user-select: none !important;
     /* Firefox */
-    -ms-user-select: none;
+    -ms-user-select: none !important;
     /* IE10+ */
 }
 
 .clndr {
-    background: #324864;
+    background: #324864 !important;
 }
 
 .cal1 .clndr .clndr-controls {
-    position: relative;
-    color: #FFF;
-    font-size: 1.2em;
-    text-transform: capitalize;
-    padding: 30px 25px;
-    text-align: center;
-    background: #152840;
+    position: relative !important;
+    color: #FFF !important;
+    font-size: 1.2em !important;
+    text-transform: capitalize !important;
+    padding: 30px 25px !important;
+    text-align: center !important;
+    background: #152840 !important;
 }
 
 .cal1 .clndr .clndr-controls .month {
-    text-align: center;
+    text-align: center !important;
 }
 
 .cal1 .clndr .clndr-controls .clndr-control-button .clndr-next-button {
-    cursor: pointer;
-    position: absolute;
-    right: 24px;
-    top: 28px;
-    text-indent: -4000px;
-    width: 30px;
-    height: 30px;
-    background: url(../images/arrow-right.png) no-repeat 0px;
-    cursor: pointer;
-    -webkit-user-select: none;
+    cursor: pointer !important;
+    position: absolute !important;
+    right: 24px !important;
+    top: 28px !important;
+    text-indent: -4000px !important;
+    width: 30px !important;
+    height: 30px !important;
+    background: url(https://raw.githubusercontent.com/angelusinferni/kvndmrndcstlh/master/images/arrow-right.png) no-repeat 0px !important;
+    cursor: pointer !important;
+    -webkit-user-select: none !important;
     /* Chrome/Safari */
-    -moz-user-select: none;
+    -moz-user-select: none !important;
     /* Firefox */
-    -ms-user-select: none;
+    -ms-user-select: none !important;
     /* IE10+ */
 }
 
 .cal1 .clndr .clndr-controls .clndr-control-button .clndr-next-button.inactive:hover {
-    cursor: default;
+    cursor: default !important;
 }
 
 .cal1 .clndr .clndr-controls .clndr-control-button .clndr-previous-button {
-    position: absolute;
-    left: 24px;
-    top: 28px;
-    text-indent: -4000px;
-    width: 30px;
-    height: 30px;
-    background: url(../images/arrow-left.png) no-repeat 0px;
-    cursor: pointer;
-    -webkit-user-select: none;
+    position: absolute !important;
+    left: 24px !important;
+    top: 28px !important;
+    text-indent: -4000px !important;
+    width: 30px !important;
+    height: 30px !important;
+    background: url(https://raw.githubusercontent.com/angelusinferni/kvndmrndcstlh/master/images/arrow-left.png) no-repeat 0px !important;
+    cursor: pointer !important;
+    -webkit-user-select: none !important;
     /* Chrome/Safari */
-    -moz-user-select: none;
+    -moz-user-select: none !important;
     /* Firefox */
-    -ms-user-select: none;
+    -ms-user-select: none !important;
     /* IE10+ */
 }
 
 .cal1 .clndr .clndr-controls .clndr-control-button .clndr-previous-button.inactive:hover {
-    cursor: default;
+    cursor: default !important;
 }
 
 .cal1 .clndr .clndr-table {
-    table-layout: fixed;
-    width: 100%;
-    margin: 0 auto;
+    table-layout: fixed !important;
+    width: 100% !important;
+    margin: 0 auto !important;
 }
 
 .cal1 .clndr .clndr-table .header-days {
-    font-size: 1em;
+    font-size: 1em !important;
 }
 
 .cal1 .clndr .clndr-table .header-days .header-day {
-    vertical-align: middle;
-    text-align: center;
-    color: #4FC4F6;
+    vertical-align: middle !important;
+    text-align: center !important;
+    color: #4FC4F6 !important;
 }
 
 .cal1 .clndr .clndr-table tr {
-    height: 60px;
+    height: 60px !important;
 }
 
 .cal1 .clndr .clndr-table tr td:first-child {
-    border-left: none;
+    border-left: none !important;
 }
 
 .cal1 .clndr .clndr-table tr td {
-    vertical-align: top;
-    border-top: 1px solid #566880;
-    border-left: 1px solid #566880;
+    vertical-align: top !important;
+    border-top: 1px solid #566880 !important;
+    border-left: 1px solid #566880 !important;
 }
 
 .cal1 .clndr .clndr-table tr .day {
-    width: 100%;
-    height: inherit;
-    color: #FFF;
-    vertical-align: middle;
+    width: 100% !important;
+    height: inherit !important;
+    color: #FFF !important;
+    vertical-align: middle !important;
 }
 
 .cal1 .clndr .clndr-table tr .day:hover {
-    background: #ea6060;
+    background: #ea6060 !important;
 }
 
 .cal1 .clndr .clndr-table tr .day.today {
-    background: #57cbc8;
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
+    background: #57cbc8 !important;
+    -webkit-transition: all 0.5s ease-in-out !important;
+    -moz-transition: all 0.5s ease-in-out !important;
+    -o-transition: all 0.5s ease-in-out !important;
+    transition: all 0.5s ease-in-out !important;
 }
 
 .cal1 .clndr .clndr-table tr .day.today:hover {
-    color: #FFF;
-    background: #ea6060;
+    color: #FFF !important;
+    background: #ea6060 !important;
 }
 
 .cal1 .clndr .clndr-table tr .day.today.event {
-    background: #57CBC8;
-    color: #FFF;
+    background: #57CBC8 !important;
+    color: #FFF !important;
 }
 
 .event {
-    background: #263a55;
+    background: #263a55 !important;
 }
 
 .day.today.event:hover {
-    color: #FFF;
+    color: #FFF !important;
 }
 
 .cal1 .clndr .clndr-table tr .day .day-contents {
-    box-sizing: border-box;
-    font-size: 1em;
-    text-align: center;
-    cursor: pointer;
+    box-sizing: border-box !important;
+    font-size: 1em !important;
+    text-align: center !important;
+    cursor: pointer !important;
 }
 
 .cal1 .clndr .clndr-table tr .empty,
 .cal1 .clndr .clndr-table tr .adjacent-month {
-    width: 100%;
-    height: inherit;
-    color: #152840;
-    background: #152840;
+    width: 100% !important;
+    height: inherit !important;
+    color: #152840 !important;
+    background: #152840 !important;
 }
 
 @media all and (max-width:800px) {
     .cal1 .clndr .clndr-table tr {
-        height: 40px;
+        height: 40px !important;
     }
 }
 
 @media all and (max-width:480px) {
     .cal1 .clndr .clndr-table tr {
-        height: 50px;
+        height: 50px !important;
     }
 }
 
 @media all and (max-width:320px) {
     .cal1 .clndr .clndr-table {
-        width: 100%;
+        width: 100% !important;
     }
     .cal1 .clndr .clndr-table tr {
-        height: 40px;
+        height: 40px !important;
     }
 }
